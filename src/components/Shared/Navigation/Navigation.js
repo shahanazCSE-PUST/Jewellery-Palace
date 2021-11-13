@@ -3,7 +3,7 @@ import { Container, Nav, Navbar, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import useAuth from '../../../hooks/useAuth';
-import logo from '../../../images/logo4.jpg'
+import logo from '../../../images/logo2.png'
 
 const Navigation = () => {
     const { user, logout } = useAuth();
@@ -14,7 +14,7 @@ const Navigation = () => {
                     <Navbar.Brand href="#home">
                         <img
                         src={logo}
-                        width="100"
+                        width="50"
                         height="50"
                         className="d-inline-block align-top rounded-circle"
                         alt="React Bootstrap logo"

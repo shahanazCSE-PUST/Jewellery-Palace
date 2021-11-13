@@ -66,39 +66,6 @@ const Purchase = () => {
         e.preventDefault();
     }
 
-    // const { register, handleSubmit, formState: { errors }, reset } = useForm();
-    // const { user } = useAuth();
-
-    // const { productId } = useParams();
-    // const [product, setProduct] = useState([])
-
-    // useEffect(() => {
-    //     fetch(`https://mysterious-wildwood-35872.herokuapp.com/products/${productId}`)
-    //         .then((res) => res.json())
-    //         .then((data) => {
-    //             console.log(data);
-    //             setProduct(data);
-    //         });
-    // }, []);
-
-    // const onSubmit = data => {
-    //     fetch('https://haunted-cemetery-18562.herokuapp.com/myOrders', {
-    //         method: 'POST',
-    //         headers: {
-    //             'content-type': 'application/json'
-    //         },
-    //         body: JSON.stringify(data)
-    //     })
-    //     .then(res => res.json())
-    //     .then(result =>{
-    //         console.log(result)
-    //         if(result.insertedId){
-    //             alert('Booking Successful!')
-    //             reset();
-    //         }
-
-    //     })
-    // };
     return (
         <div>
             <Navigation/>
@@ -161,16 +128,7 @@ const Purchase = () => {
                         <Button type="submit" variant="contained" sx={{ m: 2 ,px:5, display: 'block',mx:'auto'}} style={{ backgroundColor: '#FF6F33' }}>Submit</Button>
                     </form>
                 </Box>
-                    {/* <h2 className="span-color">Submit the following information to confirm order</h2>
-                    <form className="shipping-form">
-                        <input defaultValue={user.displayName} {...register("name")} />
-                        <input defaultValue={user.email} {...register("email", { required: true })} />
-                        {errors.email && <span className="error">This field is required</span>}
-                        <input placeholder="Address" defaultValue="" {...register("address", { required: true })} />
-                        <input placeholder="Phone" defaultValue="" {...register("phone", { required: true })} />
-                        <input defaultValue='Pending' {...register("status")} />
-                        <input type="submit" />
-                    </form> */}
+                 
                 </div>
             </div>
             <Footer></Footer>

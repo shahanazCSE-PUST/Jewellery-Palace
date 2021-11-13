@@ -22,7 +22,7 @@ import ManageOrders from '../ManageOrders/ManageOrders';
 import DashboardHome from '../DashboardHome/dashboardHome';
 import AddProducts from '../AddProducts/AddProducts';
 import ManageProducts from '../ManageProducts/ManageProducts';
-import logo from '../../../images/logo4.jpg';
+import logo from '../../../images/logo2.png';
 
 
 const drawerWidth = 200;
@@ -31,7 +31,7 @@ function Dashboard(props) {
     const { window } = props;
     let { path, url } = useRouteMatch();
     const [mobileOpen, setMobileOpen] = React.useState(false);
-    const { logout, admin, user, email, name } = useAuth();
+    const { logout, admin, user} = useAuth();
 
     const handleDrawerToggle = () => {
         setMobileOpen(!mobileOpen);
@@ -94,7 +94,7 @@ function Dashboard(props) {
                     <Typography variant="h4" noWrap component="div">
                         <Link className="text-decoration-none" to='/home'><img
                             src={logo}
-                            width="60"
+                            width="50"
                             height="50"
                             className="d-inline-block align-top rounded-circle"
                             alt="Jewelry Palace logo"
