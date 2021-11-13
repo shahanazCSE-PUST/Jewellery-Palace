@@ -1,0 +1,16 @@
+.add-product{
+    min-height: calc(100vh - 345px);
+}
+.add-product form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.add-product form input, textarea{
+    padding: 12px;
+    width: 30%;
+    margin-bottom: 10px;
+    min-width: 250px;
+    /* padding: 12px; */
+}

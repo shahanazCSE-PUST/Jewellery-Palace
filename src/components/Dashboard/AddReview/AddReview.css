@@ -1,0 +1,28 @@
+.shipping-form textarea{
+    padding: 30px;
+    width: 50%;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    min-width: 300px;
+}
+
+.shipping-form input {
+    display: block;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 50%;
+    margin-top: 20px;
+    min-width: 300px;
+}
+.shipping-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Make it responsive */
+@media only screen and (max-width:688px) {
+  
+}

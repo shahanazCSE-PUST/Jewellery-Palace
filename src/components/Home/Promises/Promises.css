@@ -1,0 +1,13 @@
+.promise{
+    background-color: white;
+    box-shadow: 5px 5px 18px 5px #888888;
+    padding: 20px;
+}
+.img-wrapper i{
+    font-size: 60px;
+    color:#ffab40;
+}
+.text p{
+    font-size: 20px;
+    font-weight: 500;
+}

@@ -1,0 +1,14 @@
+.my-container {
+    /* height: calc(100vh - 19px); */
+    padding-top: 4rem;
+    display: grid;
+    place-content: center;
+    color: #444444;
+}
+.for-font h1 {
+    font-weight: 700;
+    font-size: 8rem;
+}
+.for-font h2 {
+    font-weight: 700;
+}

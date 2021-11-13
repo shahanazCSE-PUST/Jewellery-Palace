@@ -1,0 +1,39 @@
+.my-link *:not(:hover) {
+    text-decoration: none;
+}
+.my-grid{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   justify-content: space-between;
+   
+}
+.my-footer {
+    background-color: #F2EDE7;
+}
+.icon i{
+    color:#fff;
+    background-color: #FF6F33;
+    padding: 8px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+.icon i:hover{
+    color:white;
+    background-color: black;
+}
+/* Make it responsive */
+@media only screen and (max-width:688px) {
+    .my-grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .grid-item{
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    .my-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

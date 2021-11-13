@@ -1,0 +1,10 @@
+.cross{
+    color: red;
+    font-size: 25px;
+}
+/* Make it responsive */
+/* @media only screen and (max-width:688px) {
+    .table-container{
+        width: 300px;
+    }
+} */
